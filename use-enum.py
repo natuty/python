@@ -41,7 +41,7 @@ if __name__ == '__main__':
 	print(a.name)
 	print(a.value)
 
-	print(CarTypeEnum['SlagCar'].name)
+	# print(CarTypeEnum['SlagCar'].name)
 	print(CarTypeEnum['SlagCar'].value)
 
 	for x in CarTypeEnum:
@@ -55,4 +55,4 @@ if __name__ == '__main__':
 	print('Weekday.Tue.value =', Weekday.Tue.value)
 	print('day1 == Weekday.Mon ?', day1 == Weekday.Mon)
 	print('day1 == Weekday.Tue ?', day1 == Weekday.Tue)
-	print('day1 == Weekday(1) ?', day1 == Weekday(1))
+	print('day1 == Weekday(1) ?', day1 == Weekday(1)) 
