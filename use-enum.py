@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import sys
 import random
-from test_import import * 
 from enum import Enum, unique
 reload(sys)   
 sys.setdefaultencoding('utf8') 
@@ -48,4 +47,12 @@ if __name__ == '__main__':
 	for x in CarTypeEnum:
 		print('{0}\t{1}'.format(x.name,x.value))
 		pass
-	
+
+	day1 = Weekday.Mon
+	print('day1 =', day1)
+	print('Weekday.Tue =', Weekday.Tue)
+	print('Weekday[\'Tue\'] =', Weekday['Tue'])
+	print('Weekday.Tue.value =', Weekday.Tue.value)
+	print('day1 == Weekday.Mon ?', day1 == Weekday.Mon)
+	print('day1 == Weekday.Tue ?', day1 == Weekday.Tue)
+	print('day1 == Weekday(1) ?', day1 == Weekday(1))
