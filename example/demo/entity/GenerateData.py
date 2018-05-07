@@ -42,7 +42,8 @@ def test4():
 	for i in range(0,N):
 		one = random.randint(6,10)
 		print('{0}{1}{2}\\t'.format('{',i,'}'))
+
 if __name__ == '__main__':
 	#test()
 	#test2()
-	test4()
+	#test4()
