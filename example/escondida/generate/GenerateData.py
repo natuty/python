@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 import sys
 import random
-from MyArray import *
+sys.path.append("..")
+from entity.MyArray import *
 reload(sys)   
 sys.setdefaultencoding('utf8') 
 
@@ -56,9 +57,13 @@ def userWorkCode(N):
 	for i in range(0,N):
 		print('"E2018{:04.0f}",'.format(id))
 		id = id+1
+def projectRefuelLog_capacity(N):
+	for i in range(0,N):
+		print('{}'.format(random.randint(1,5)))		
 if __name__ == '__main__':
 	#test()
 	#test2()
 	#test4()
 	#userWorkData(50)
-	userWorkCode(50)
+	#userWorkCode(50)
+	projectRefuelLog_capacity(50)
