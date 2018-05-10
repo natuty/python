@@ -37,7 +37,7 @@ def generateName():
 	while len(s)>0:
 		name = s.pop()
 		print name
-		f.write('[{0},{1}],\n'.format(id, name))
+		f.write('"{0}",'.format(name))
 		id = id + 1
 	f.close()
 

@@ -43,7 +43,22 @@ def test4():
 		one = random.randint(6,10)
 		print('{0}{1}{2}\\t'.format('{',i,'}'))
 
+def userWorkData(N):
+	id = 1
+	print('[')
+	for i in range(0,N):
+		print('\t[{0},"{1}","{2}","{3}"],'.format(id, userWork_name[i],userWork_phoneNumber[i],userWork_idCard[i]))
+		id = id+1
+	print(']')
+
+def userWorkCode(N):
+	id = 1
+	for i in range(0,N):
+		print('"E2018{:04.0f}",'.format(id))
+		id = id+1
 if __name__ == '__main__':
 	#test()
 	#test2()
 	#test4()
+	#userWorkData(50)
+	userWorkCode(50)
