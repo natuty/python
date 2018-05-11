@@ -33,7 +33,8 @@ car_carNumber=["京C·U34M6","京A·P2HAD","京C·11N0S","京A·74WAG","京A·F3
 car_height = [10,8,9,6,7,9,8,9,9,10,7,9,9,7,6,9,8,8,9,8,7,10,6,10,10,9,7,7,9,8,6,7,9,10,9,8,6,6,9,10,8,10,10,9,9,7,10,7,6,8]
 car_length = [6,6,6,7,6,10,10,8,9,10,6,6,8,10,8,6,10,6,9,6,7,10,8,8,7,6,6,7,9,7,6,8,9,7,9,6,6,7,8,6,6,9,10,8,7,10,9,6,9,9]
 car_width = [6,8,10,9,10,7,8,10,9,10,7,8,6,7,9,10,9,9,9,8,8,7,9,9,6,9,10,10,6,6,9,8,10,7,10,9,10,10,7,10,8,10,6,6,8,7,6,9,9,9]
- 
+
+projectCar_pricingType = [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,1,1,2,3,2,2,2,1,1,1,1,1,1,1,1,1,1]
 
 projectCar_cubicHourCubic = ["7","10","9","9","9","6","7","6","7","6","7","8","10","7","6","7","9","7","6","7","7","9","7","7","9","10","8","6","9","10","6","8","7","6","7","7","10","6","8","6","6","8","6","6","10","6","8","10","7","7"]
 
@@ -45,6 +46,24 @@ userWork_workCode = ["E20180001","E20180002","E20180003","E20180004","E20180005"
 #90
 Device_cardNumber = ['15302276021', '13555727996', '18697366257', '15045605049', '13289414408', '15167423810', '15970150467', '13765173620', '13371114378', '15942324453', '13504977074', '15847645353', '15185699517', '14725416576', '15736109989', '18649978238', '13518309129', '18811295432', '15625406180', '13591946092', '13842356785', '13639325337', '13726026175', '13188766912', '18745306634', '13439585752', '13292671335', '15742761213', '15149150968', '15981593972', '14704147333', '18806384051', '13789026402', '15211472166', '15241340060', '13632907595', '13224938443', '13230835162', '14784039748', '15801601018', '13508972421', '18659410724', '13031883250', '15704749057', '13814243927', '15029194186', '13922834550', '18814090343', '15873783339', '15209266258', '13175510677', '15337445835', '15648333551', '15552699303', '13476732670', '15070728399', '13434313465', '13347562947', '14701144103', '13547279160', '13313465902', '13595164573', '15234133937', '18777711610', '14716816481', '13712309507', '13961848295', '13143480014', '13235903340', '15107875202', '15866337277', '18737449696', '13751472642', '14702149680', '13591782368', '13201818785', '15623049614', '13867811860', '15145381013', '15577457224', '13729485754', '15883536037', '13703640532', '13703447256', '15262666234', '15357900587', '18795901951', '15674765133', '15177189004', '15690249723']
 #SysUser_acc = ["admin","administrator","root","admin123","user","master","test","testadmin","tester","guest","siteadmin"]
+
+ProjectRefuelLog_capacity = [300,100,500,400,400,400,500,500,400,400,400,400,400,400,100,100,200,100,300,500,400,200,500,400,500,200,300,100,500,200,500,200,500,400,500,200,400,500,200,300,500,500,100,100,200,100,100,400,300,200]
+
+ProjectSite_name = ["百合渣场","白沙街道","白沙渣场","北陡渣场","苍城渣场","潮连街道","潮连渣场","赤坎渣场","赤水渣场","赤溪渣场","冲蒌渣场","川岛渣场","大鳌渣场","大槐渣场","大江渣场","大沙渣场","大田渣场","大泽渣场","单水口渣场","堤东街道","东安街道","东成渣场","东山渣场","都斛渣场","斗山渣场","杜阮渣场","端芬渣场","恩城街道","恩城渣场","恩侨渣场"]
+#ProjectSite_uid= ['Ygra-bQz7-zCit-zBlX', 'L2et-O4Bj-aZdN-QfeW', '9vGP-oVAN-UVfZ-o4eF', 'dv5O-x4zU-XJRL-G0QE', 'nrlu-izYt-EpA4-zet2', 'GLcN-ZYex-N9TU-jAiD', 'Zdrw-4pA6-Umlj-gcUu', 'fG04-SzCA-rGKd-4Ca7', 'etcT-7EpU-qw6W-DVmE', 'fLce-AD31-KeQv-Dekd']
+ProjectSite_uid= ['qNWm-JIuA-Z2aF-7Pa6', 'yXT7-ST0k-6RJZ-MUcZ', '4jZ6-vj0T-oiVB-qhYs', 'LOjK-bXVS-Mj2q-vtBi', 'NX58-D1gl-6qA2-egUs', '8DKp-5mnz-HTd3-I8kX', 'fwPN-MNV2-tMTD-93s6', 'tVJI-LZ7D-8St7-Htz3', 'uCgA-BlOt-EKbC-ocEM', 'yjxn-7qIS-uIyF-jzf2', '4vZd-KoT0-6Ig9-yzWZ', 'tPqx-v6AK-ROEU-lOI7', 'nETW-b68G-Nima-D7WA', '5P2r-l4YP-whqe-6ET4', '0hyx-8Hmt-AEPB-h5Go', 'khjm-78Gh-gVMI-fXJ4', 'B3ca-lRdm-ALIG-zQD5', 'tbuT-BkNY-715p-1HS6', 'HdpM-agR2-OxEj-xZIC', 'jmBi-7aMA-Ate8-v1rk', 'AEH0-CqwY-5qUJ-nau2', 'dA4v-F0SR-jOr9-z8Ua', 'ZVr1-HT4Q-I9YF-wXO1', 'v8sy-HAl4-Meji-Eby8', 'TAyY-W4cK-QTvM-hu64', 'GWbE-jAlH-RfMa-fBtM', 'hqig-9s6R-jxDy-biy0', 'nOcl-xLFc-c6jH-CLyx', 'fYCu-YOwu-qGcx-SBsp', 'lWtO-Fghb-l6SV-kDo8', 'TWMp-3Knf-uqIU-FNPw', 'yp8i-Mdy5-zSwy-PMgn', 'bTZM-ab7P-MBzS-dqe7', 'sL0K-WbXO-ahsL-7hzH', 'uGYM-rm5p-nPqg-8JsL', 'GFNi-O2DW-hEe2-xWYD', 'B861-UcMD-vhBS-JTXy', 'vNEs-GI69-s0BY-W5YJ', 'Pv12-QVMl-DX96-Tkbh', 'EYpx-PqWV-JqmX-jJRr', 'B0Ki-kHAz-KhRn-V2JR', 'BYTc-XT9F-xB9H-7A1D', '4is2-eHLt-0eRy-UjrJ', '9HMB-Qlot-Tix4-a75h', 'H8ZG-1FvQ-tUoz-oPBG', 'fNRA-1Ebz-GwnM-EiLF', 'pZr8-9BeZ-9RdN-tshJ', 'Tzq0-Wmfn-m4fZ-BijG', 'JqAy-p5BM-ThBm-khoY', 'CBGO-E9FB-SzKa-H4OV', 'gN8h-TR98-Sig2-jCdE', 'GT1j-FHRC-PIWN-8mK0', 'xKj6-veB4-tFR4-NVPQ', '8cSI-hI39-jsrf-vXsU', 'afC7-YTqc-UNMg-rMXT', '9s1U-yAl4-xy8z-oCY3', 'GwQM-RTvb-IXHj-v2ON', 'Z56p-oYG6-vIeZ-qA7g', 'xq4l-wGAx-HWen-Cmuq', 'XVAC-2GS4-iWfo-sXiC', 'WGtx-ST2i-dBr8-LATf', 'q4VY-yghK-TYyF-vNEI', 'GgVQ-uNEm-tafT-MmuS', 'TtV4-qIPT-rQ0L-XsYB', 'i3Nc-TWda-pamC-ZR24', 'Xd6Y-K4Mb-JuTH-1UBM', 'yb1S-RXya-aLYJ-19GP', '3aoI-fpCg-7Ax9-Li49', 'D8Ls-TKk3-LyNu-qJco', '79Us-eBTc-4PXn-bBti', 'GKwY-mp2U-cyab-71Nu', 'bv7O-QIaK-RH7F-jzSC', 'LbPn-Y8Qi-7IUE-w6Il', 'Q4zN-aCIH-V9vW-7cvP', 'WSLn-T27w-2afI-641w', 'xRjy-7aHw-wbaD-BLJo', 'tboP-NYqi-nAYU-XTU1', 'BSml-tSqf-k0Oi-LeAV', 'DBPH-em4o-KoTe-IrQa', '6Tyv-PJu4-hJUV-kAlH', '0VtT-mHYa-PQsJ-1hUb', 'Gdj0-DRul-yLsg-xesk', 'YXzK-7BHT-idQH-F2kL', 'gxlK-PW1d-gGuK-e8yN', 'jbP1-1Dcz-Y4W1-4KOb', 'QoYw-xI01-zqDx-3D9G', 'EzH0-viIj-6hxy-xKZp', 'hHqz-1WPK-2XTV-W5yf', 'agAG-EhKX-eN1m-qbho', 'bEJV-uzHC-UNZu-eHMN']
+ProjectSite_distance = [40000,50000,20000,20000,20000,10000,20000,40000,10000,10000]
+
+ProjectOilPrice=9
+
+
+ProjectWorkPlanSet = [
+	[1,"早班","2018-05-03 08:00:00","2018-05-03 16:00:00",1,1,80000,160000],
+	[2,"中班","2018-05-22 14:00:00","2018-05-31 00:00:00",1,2,140000,0],
+	[3,"晚班","2018-02-11 00:00:00","2018-02-11 08:00:00",2,2,0,80000],
+]
+
+
 data = [
 		[1,"加油车","OilCar","Oil","Oil001",2],
 		[2,"单勾","SingleHook","Sin","Sin001",7],
@@ -116,6 +135,12 @@ loadMaterial = [
 	[1,"煤渣"],
 	[2,"铁渣"],
 	[3,"矿渣"],
+]
+PricingType = [
+	["Unknow","未知",0], 
+	["Hour","计时",1], 
+	["Cube","计方",2], 
+	["HourAndCube","计时计方",3],
 ]
 
 

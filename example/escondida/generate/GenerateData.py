@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import sys
-import random
+import sys, string, random
 sys.path.append("..")
 from entity.MyArray import *
 reload(sys)   
@@ -57,13 +56,39 @@ def userWorkCode(N):
 	for i in range(0,N):
 		print('"E2018{:04.0f}",'.format(id))
 		id = id+1
+
 def projectRefuelLog_capacity(N):
 	for i in range(0,N):
-		print('{}'.format(random.randint(1,5)))		
+		print('{}'.format(random.randint(1,5)*100))
+
+
+def getRandom(size):
+	field=string.letters+string.digits
+	return "".join(random.sample(field,size))
+def generate(group,size):
+	return "-".join([getRandom(size) for i in range(group)])
+def cpuId(N):
+	s = set()
+	while len(s) <N :
+		s.add(generate(4,4))
+	return s
+
+def pricingType(N):
+	for i in range(0,N):
+		type = 2
+		if i>=32 :
+			type=random.randint(1,3)
+		if i>= 42 :
+			type = 1
+		print type
+
+
 if __name__ == '__main__':
 	#test()
 	#test2()
 	#test4()
 	#userWorkData(50)
 	#userWorkCode(50)
-	projectRefuelLog_capacity(50)
+	#projectRefuelLog_capacity(50)
+	#print cpuId(90)
+	pricingType(50)

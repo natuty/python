@@ -53,13 +53,14 @@ def test2():
 		if i>=47:
 			pos=i-40
 
-		pricingType=0
-		if pos == 3:
-			pricingType = 1
-		else:
-			pricingType=2
+		# pricingType=0
+		# if pos == 3:
+		# 	pricingType = 1
+		# else:
+		# 	pricingType=2
+		pricingType = projectCar_pricingType[i]
 
-		print('{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\t{12}\t{13}\t{14}\t{15}\t{16}\t{17}\t{18}\t{19}\t{20}\t{21}\t{22}\t{23}\t{24}\t{25}\t{26}\t{27}\t{28}\t{29}\t{30}'.format(id, pos, data[pos][3], id, 1, car_code[i], projectCar_cubicHourCubic[i], 10, 20, 0, id, "", car_height[i], 30, "2018-02-22 18:18:02", 0, "2018-02-22 18:18:02", length, data[pos][0], data[pos][4], 0, id, "", pricingType, 1, 100, 0, data[pos][5], data[pos][5], vehicleLoad, width))
+		print('{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\t{8}\t{9}\t{10}\t{11}\t{12}\t{13}\t{14}\t{15}\t{16}\t{17}\t{18}\t{19}\t{20}\t{21}\t{22}\t{23}\t{24}\t{25}\t{26}\t{27}\t{28}\t{29}\t{30}'.format(id, pos, data[pos][3], id, 1, car_code[i], projectCar_cubicHourCubic[i], 10, 20, 0, id, userWork_name[i], car_height[i], 30, "2018-02-22 18:18:02", 0, "2018-02-22 18:18:02", length, data[pos][0], data[pos][4], 0, id, userWork_name[i], pricingType, 1, 100, 0, data[pos][5], data[pos][5], vehicleLoad, width))
 		#print("%d\t%d%s%d\t%s\t%d\t%d\t1\t%d" %(i, capacity, ranStr.pop(),ranNum[i], zha, ran+1,ran13, ran14))
 
 def ranApa():
