@@ -1,0 +1,1 @@
+SECRET_KEY = 'secret key to protect from csrf'

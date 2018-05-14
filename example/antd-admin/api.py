@@ -18,4 +18,4 @@ def index():
     return '<h1>antd-admin</h1>'
 
 if __name__ == '__main__':
-    app.run(host="localhost",port=8888)
+    app.run(host="localhost",port=8888,debug=True)
