@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from enum import Enum, unique
+from enum import Enum
 
-@unique
+
 class CarTypeEnum(Enum):
 	Unknow = "未知类型"
 	AllType = "全部类型"
@@ -156,8 +156,9 @@ PricingType = [
 ]
 
 
-
+CarLog = ["cmdInd","pktID","eventId","projectID","timeLoad","carCode","timeCheck","carID","timeDischarge","slagfieldID","excavatCurrent","excavatNext","m1fare","loader","uid","heightAvg","heightMax"]
 
 if __name__ == '__main__':
-	print("")
+	for i in range(0,len(CarLog)):
+		print 'self.{0} = {0}'.format(CarLog[i])
 

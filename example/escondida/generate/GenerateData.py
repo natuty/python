@@ -91,4 +91,6 @@ if __name__ == '__main__':
 	#userWorkCode(50)
 	#projectRefuelLog_capacity(50)
 	#print cpuId(90)
-	pricingType(50)
+	#pricingType(50)
+	for i in range(1,100):
+		print('{0}\t{0:02.0f}{0:02.0f}{0:02.0f}\t{1}'.format(i,random.randint(1000,9999)))
